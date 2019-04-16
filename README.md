@@ -22,11 +22,11 @@ And for those of you using Sublime Text there are 2 plugins which will be helpfu
 
 The easiest way to start learning markdown without anything is an online markdown editor called Dillinger.[GO HERE](https://dillinger.io/)
 
-!!BELOW ARE SOME TOOLS FOR PURELY MARKDOWN AND ARE NOT NECESSARY!!
+!!BELOW ARE SOME TOOLS FOR PURE MARKDOWN AND ARE NOT NECESSARY UNLESS YOU ARE WRITING CONTENT PURELY IN MARKDOWN!!
 
 - ReText for linux users [get it here](http://sourceforge.net/p/retext/home/ReText/).
 - Mou for Mac users but if you have updated to Mojave you gotta pay [get it here](http://mouapp.com/).
-- Marked a tool providing live preview as you write in any text editor.
+- Marked is a tool providing live preview as you write in any text editor.
  
 ## SYNTAX
 We will be focusing mainly on GFM or Github Flavoured Markdown which is markdown but with added functionality from github.It's really all about looking it up multiple times in cheat sheets as and when you need it and eventually you'll be a pro at it
@@ -38,14 +38,14 @@ Some links to useful resources are:
 ### Text in markdown
 `It's very easy to make some words **bold** and other words *italic* with Markdown.`
 `**BOLD1** __BOLD2__ __*BOLD + ITALIC*__ `
-~~~~
+~~~
 # this is a h1 tag
 ## this is a h2 tag
 ### this is a h3 tag
 #### this is a h4 tag
 ##### this is a h5 tag
 ###### this is a h6 tag
-~~~~
+~~~
 
 
 It's very easy to make some words **bold** and other words *italic* with Markdown.
@@ -58,14 +58,14 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 ###### this is a h6 tag
 
 #### Blockquotes
-~~~~
+~~~
 >Markdown is cool and you who is trying to master it is cooler
 Begin the second level of blockquotes
 >
 >>Me
 >
 End the second level of blockquotes
-~~~~
+~~~
 
 >Markdown is cool and you who is trying to master it is cooler
 >
@@ -79,7 +79,7 @@ You can use an Horizontal line easily like this
 
 #### LISTS
 
-~~~~
+~~~
 Sometimes you want numbered lists:
 
 1. One
@@ -97,7 +97,7 @@ Alternatively,
 - And if you have sub points, put two spaces before the dash or star:
   - Like this
   - And this
-~~~~
+~~~
 
 Sometimes you want numbered lists:
 
@@ -116,3 +116,15 @@ Alternatively,
 - And if you have sub points, put two spaces before the dash or star:
   - Like this
   - And this
+
+#### CODE IN MARKDOWN
+
+This is where Github flavoured markdown really comes into play.Syntax highlighitng for multiple languages and is really easy to implement.
+
+Inline code is written by enclosing in backticks.
+Multi line code is enclosed in ``` code ```
+```language name
+code
+``` 
+for syntax highlighting
+
