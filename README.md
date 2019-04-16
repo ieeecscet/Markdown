@@ -46,7 +46,7 @@ Some links to useful resources are:
 ##### this is a h5 tag
 ###### this is a h6 tag
 ~~~
-
+Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
 
 It's very easy to make some words **bold** and other words *italic* with Markdown.
 **BOLD** __BOLD2__ __*BOLD + ITALIC*__ 
@@ -122,9 +122,80 @@ Alternatively,
 This is where Github flavoured markdown really comes into play.Syntax highlighitng for multiple languages and is really easy to implement.
 
 Inline code is written by enclosing in backticks.
-Multi line code is enclosed in ``` code ```
+Multi line code is enclosed by ```
+~~~
 ```language name
 code
 ``` 
+~~~
 for syntax highlighting
 
+![code](https://github.com/ieeecscet/Markdown/blob/master/Screenshot%202019-04-16%20at%2010.40.04%20PM.png)
+
+Markdown and `print('code')` go hand in hand
+
+```
+x=[a for a in x if a>1]
+for i in x:
+    if i<1:
+        print("Python doesn't work")
+```
+
+```python
+x=[a for a in x if a>1]
+for i in x:
+    if i<1:
+        print("Python doesn't work")
+```
+
+#### Tables
+
+You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
+
+![code](https://github.com/psycholoony/Markdown/blob/master/Screenshot%202019-04-16%20at%2010.58.58%20PM.png)
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+#### Images
+
+We can get cool images like this one using the syntax
+`![alternate txt](url)`
+
+![cool](https://www.indiewire.com/wp-content/uploads/2017/10/matrix-code.jpg?w=780)
+
+#### Links
+
+We can have inline links like this-> `hello this is an [example link](http://example.com)`
+
+## hello this is an [example link](http://example.com)
+
+We can also have images as links as we can see from this example where the illuminati symbol leads us to the wiki page of the illuminati.
+The syntax is:
+`[![alt txt](url)](link url)`
+
+[![ill](https://static.thenounproject.com/png/499640-200.png)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjLvpLWl9XhAhWBOI8KHfkFBs8QFjAAegQIABAB&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIlluminati&usg=AOvVaw2dwWxpMAucEncxEfzti0Qb)
+
+#### EXTRAS
+
+GitHub supports emoji so go crazy
+### :+1: :sparkles: :camel: :tada:
+### :rocket: :metal: :octocat:
+
+[THIS IS THE EMOJI CHEAT SHEET](www.emoji-cheat-sheet.com)
+
+Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization
+
+#### Task Lists
+
+This is how you make task lists
+
+![code](https://github.com/psycholoony/Markdown/blob/master/Screenshot%202019-04-16%20at%2011.38.18%20PM.png)
+
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+### Well hopefully you have been convinced that learning Markdown is useful and you have got a good idea as to how to use it.The mentioned resources are more comprehensive and are a great reference while working with Markdown.Happy coding!
